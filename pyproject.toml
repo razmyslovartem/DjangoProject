@@ -1,15 +1,16 @@
-[tool.poetry]
-name = "homework-21-2"
+[project]
+name = "homework-22"
 version = "0.1.0"
 description = ""
-authors = ["Artem Razmyslov <89083284426@mail.ru>"]
+authors = [{name = "Artem Razmyslov", email = "89083284426@mail.ru"}]
 readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django>=6.0.6,<7.0.0"
+]
+
+[tool.poetry]
 package-mode = false
-
-[tool.poetry.dependencies]
-python = "^3.13"
-django = "^6.0.6"
-
 
 [build-system]
 requires = ["poetry-core>=2.4.0,<3.0.0"]
