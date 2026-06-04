@@ -46,7 +46,7 @@ known_first_party = ["homework"]
 src_paths = ["src", "test"]
 
 [tool.mypy]
-python_version = "3.9"
+python_version = "3.13"
 show_error_codes = true
 ignore_missing_imports = true
 disallow_incomplete_defs = true
@@ -61,7 +61,7 @@ exclude_gitignore = true
 
 [tool.black]
 line-length = 119
-target-version = ['py39']
+target-version = ['py313']
 extend-exclude = '''
 /(
     \.git
